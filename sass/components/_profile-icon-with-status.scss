@@ -1,0 +1,29 @@
+.profile-icon {
+  position: relative;
+  .img-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .active,
+  .inactive {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: block;
+    top: -1px;
+    left: -2px;
+    position: absolute;
+  }
+  .active {
+    background-color: $color-green;
+  }
+  .inactive {
+    background-color: $color-grey;
+  }
+  .black-border {
+    border: 3px solid $color-black;
+  }
+}

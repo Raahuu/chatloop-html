@@ -1,0 +1,60 @@
+.chat-card {
+  width: 90%;
+  height: 12rem;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 4px 4px 15px -3px #b6b6b6;
+}
+
+.user-details {
+  display: flex;
+}
+
+.chat-card__user {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 0px 10px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.status {
+  color: darken($color-grey, 10%);
+}
+
+.message-time {
+  font-size: 1.3rem;
+  color: darken($color-grey, 20%);
+}
+
+.chat-card__user-message {
+  display: flex;
+  margin: 1rem 0rem;
+  align-items: center;
+}
+
+.message-content {
+  font-size: 1.3rem;
+  width: 90%;
+}
+
+.message-count {
+  width: 10%;
+  p {
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    background-color: $color-primary;
+    color: $color-white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
